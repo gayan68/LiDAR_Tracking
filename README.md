@@ -16,11 +16,13 @@ The input to the tracking system is a list of boundary boxes, each defined by 7 
 
 ## Key Features
 ### 1. Object Tracking:
+  File name: object_tracking.py
 - **2D Space Tracking**: Tracks objects based on the closest distance in the X, Y 2D space. The `z` (height) is ignored for tracking.
 - **Kalman Filter**: A Kalman filter is used to predict the next position of a boundary box, enhancing tracking accuracy.
 - **Velocity Comparison**: Velocity comparison between consecutive frames is used to improve the object association and reduce ID switching errors.
 
 ### 2. Bird's Eye View Visualization:
+  File name: run_demo_lidar_dev2.py
 - **BEV Video/GIF**: Generates a birds-eye view representation of the object tracking results, allowing for visual inspection.
 
 ## Installation
