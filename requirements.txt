@@ -6,11 +6,3 @@ Pillow
 open3d
 filterpy
 pyyaml
-
-
-# Install required packages from requirements.txt
-pip install -r requirements.txt
-
-# Install additional packages
-pip install json  # json is part of the standard library, so this line is not necessary, but left for clarity
-pip install re    # same for re, it's part of the standard library
