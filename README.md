@@ -34,5 +34,5 @@ pip install -r requirements.txt
 pip install json
 pip install re
 
-
+### Sample Out:
 ![GIF Visualization](output.gif)
