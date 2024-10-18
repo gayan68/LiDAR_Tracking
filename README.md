@@ -22,7 +22,7 @@ The input to the tracking system is a list of boundary boxes, each defined by 7 
 - **Velocity Comparison**: Velocity comparison between consecutive frames is used to improve the object association and reduce ID switching errors.
 
 ### 2. Bird's Eye View Visualization:
-  File name: run_demo_lidar_dev2.py
+  File name: cadc_devkit/run_demo_lidar_dev2.py
 - **BEV Video/GIF**: Generates a birds-eye view representation of the object tracking results, allowing for visual inspection.
 
 ## Installation
