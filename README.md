@@ -33,3 +33,6 @@ Install the required dependencies by running the following commands:
 pip install -r requirements.txt
 pip install json
 pip install re
+
+
+![GIF Visualization](output.gif)
